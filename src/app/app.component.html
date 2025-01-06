@@ -1,0 +1,36 @@
+<div class="container background">
+  <h1 class="text-center mb-3">Termékek</h1>
+  <table class="table table-hover table-bordered">
+    <tr class="text-center">
+      <th>
+        <span (click)="newProduct()">&#10010;</span>
+      </th>
+      <th>Termék neve</th>
+      <th>Ár</th>
+      <th>Kategória</th>
+      <th>Raktáron</th>
+      <th>Leírás</th>
+
+    </tr>
+
+    @for (prod of products; track $index) {
+      <tr>
+        <td>
+          <span (click)="modifyProduct(prod)">&#9998;</span>
+          <span (click)="deleteProduct(prod)">&#10008;</span>
+        </td>
+        <td>{{prod.name}}</td>
+        <td>{{prod.price}} $</td>
+        <td>{{prod.category}}</td>
+        <td>{{prod.stock}} db</td>
+        <td>{{prod.description}}</td>
+      </tr>
+
+    }
+
+
+  </table>
+</div>
+
+<app-product [model]="modify" (saved)="saveModify($event)"></app-product>
+<app-product [model]="new" (saved)="saveNew($event)"></app-product>
