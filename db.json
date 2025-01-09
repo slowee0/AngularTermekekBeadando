@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Logitech G502 HERO",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 150,
+      "description": "High-performance wired gaming mouse with HERO 25K sensor."
+    },
+    {
+      "id": "2",
+      "name": "Razer BlackWidow V3",
+      "price": 139.99,
+      "category": "Electronics",
+      "stock": 90,
+      "description": "Mechanical gaming keyboard with Razer Green switches."
+    },
+    {
+      "id": "3",
+      "name": "JBL Flip 6",
+      "price": 129.95,
+      "category": "Electronics",
+      "stock": 200,
+      "description": "Portable Bluetooth speaker with waterproof design."
+    },
+    {
+      "id": "4",
+      "name": "Nike Air Zoom Pegasus 39",
+      "price": 129.99,
+      "category": "Sports",
+      "stock": 75,
+      "description": "Lightweight running shoes for daily training."
+    },
+    {
+      "id": "5",
+      "name": "Adidas Tiro 21 Training Pants",
+      "price": 45,
+      "category": "Sports",
+      "stock": 120,
+      "description": "Comfortable training pants with sweat-wicking fabric."
+    },
+    {
+      "id": "6",
+      "name": "Apple Watch Series 8",
+      "price": 399.99,
+      "category": "Electronics",
+      "stock": 25,
+      "description": "Advanced smartwatch with health tracking and GPS."
+    },
+    {
+      "id": "7",
+      "name": "Hydro Flask 32 oz",
+      "price": 49.95,
+      "category": "Fitness",
+      "stock": 300,
+      "description": "Insulated stainless steel water bottle with straw lid."
+    },
+    {
+      "id": "8",
+      "name": "Herschel Little America Backpack",
+      "price": 99.99,
+      "category": "Accessories",
+      "stock": 60,
+      "description": "Stylish and spacious backpack for daily use."
+    },
+    {
+      "id": "9",
+      "name": "Philips Hue White and Color Ambiance Bulb",
+      "price": 49.99,
+      "category": "Home",
+      "stock": 150,
+      "description": "Smart bulb with 16 million colors and app control."
+    },
+    {
+      "id": "10",
+      "name": "Sony WH-1000XM5",
+      "price": 399.99,
+      "category": "Electronics",
+      "stock": 40,
+      "description": "Industry-leading noise-cancelling wireless headphones."
+    },
+    {
+      "id": "11",
+      "name": "Samsung Galaxy Buds 2 Pro",
+      "price": 229.99,
+      "category": "Electronics",
+      "stock": 80,
+      "description": "True wireless earbuds with active noise cancellation."
+    },
+    {
+      "id": "12",
+      "name": "Garmin Forerunner 955",
+      "price": 499.99,
+      "category": "Fitness",
+      "stock": 20,
+      "description": "Premium GPS running smartwatch with advanced features."
+    },
+    {
+      "id": "13",
+      "name": "Lululemon Align Leggings",
+      "price": 98,
+      "category": "Fitness",
+      "stock": 200,
+      "description": "High-rise leggings with buttery-soft fabric."
+    },
+    {
+      "id": "14",
+      "name": "Dell UltraSharp U2723QE",
+      "price": 779.99,
+      "category": "Electronics",
+      "stock": 15,
+      "description": "27-inch 4K UHD monitor with exceptional color accuracy."
+    },
+    {
+      "id": "15",
+      "name": "Fitbit Charge 5",
+      "price": 149.95,
+      "category": "Fitness",
+      "stock": 100,
+      "description": "Advanced fitness tracker with stress management tools."
+    },
+    {
+      "id": "16",
+      "name": "Theragun PRO",
+      "price": 599.99,
+      "category": "Fitness",
+      "stock": 30,
+      "description": "Professional-grade percussive therapy device."
+    },
+    {
+      "id": "17",
+      "name": "Epson EcoTank ET-2800",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 50,
+      "description": "All-in-one cartridge-free printer with wireless connectivity."
+    },
+    {
+      "id": "18",
+      "name": "Bose QuietComfort 45",
+      "price": 329,
+      "category": "Electronics",
+      "stock": 70,
+      "description": "Comfortable over-ear headphones with world-class noise cancelling."
+    },
+    {
+      "id": "19",
+      "name": "Columbia Newton Ridge Hiking Boots",
+      "price": 89.99,
+      "category": "Sports",
+      "stock": 60,
+      "description": "Waterproof hiking boots with superior grip and comfort."
+    },
+    {
+      "id": "20",
+      "name": "Dyson V15 Detect",
+      "price": 699.99,
+      "category": "Home",
+      "stock": 20,
+      "description": "Powerful cordless vacuum with laser dust detection."
+    }
+  ]
+}
